@@ -20,7 +20,6 @@ function formatCharacter( character ) {
 
 function displayCharacters( data ) {
 
-
     const formattedCharacters = data.map( formatCharacter ) 
 
     formattedCharacters.forEach( createAppendCharacter )
